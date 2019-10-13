@@ -1,0 +1,25 @@
+install XC I
+
+
+apt-get install python
+wget https://xtreamcodes.org/install/install.py
+python install.py
+
+mysql -u root -p(passroot) xtream_iptvpro < backup.sql
+
+
+
+or
+
+
+sudo su
+apt-get update && apt-get upgrade -y
+sudo apt-get install mysql-server
+sudo apt-get install python
+sudo apt install apache2
+sudo apt-get install libxslt1-dev
+sudo apt-get install libgeoip-dev
+apt-get update && apt-get upgrade -y
+sudo reboot
+sudo wget https://xtreamcodes.org/install/install.py
+sudo python install.py
